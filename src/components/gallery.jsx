@@ -1,21 +1,20 @@
 import React from 'react';
 import { Play, Image as ImageIcon } from 'lucide-react';
-import background from '../assets/background.jpg';
-import nakash from '../assets/nakash1.JPG';
-import haricharan from '../assets/haricharan.JPG';
-import gaami from '../assets/gaami director.JPG';
-import upview from '../assets/upview.jpg';
-import people from '../assets/people.jpg';
-import musicVideo from '../assets/musicVideo.mp4';
-import pep from '../assets/alsoPeople.jpg';
-import chowrastha from '../assets/chowrastha.MP4';
-
-import fashion from '../assets/fashionShow.JPG';
-import hanuman from '../assets/hanumanragupadi.JPG';
-import spring from '../assets/spring.jpg';
-import cncert from '../assets/concertVideo.mp4';
-import navdeep from '../assets/navdeep (2).JPG';
-import speechh from '../assets/speech.JPG';
+import background from '../assets/GalleryAssets/background.jpg';
+import nakash from '../assets/GalleryAssets/nakash1.JPG';
+import haricharan from '../assets/GalleryAssets/haricharan.JPG';
+import gaami from '../assets/GalleryAssets/gaami director.JPG';
+import upview from '../assets/GalleryAssets/upview.jpg';
+import people from '../assets/GalleryAssets/people.jpg';
+import musicVideo from '../assets/GalleryAssets/musicVideo.mp4';
+import pep from '../assets/GalleryAssets/alsoPeople.jpg';
+import chowrastha from '../assets/GalleryAssets/chowrastha.MP4';
+import fashion from '../assets/GalleryAssets/fashionShow.JPG';
+import hanuman from '../assets/GalleryAssets/hanumanragupadi.JPG';
+import spring from '../assets/GalleryAssets/spring.jpg';
+import cncert from '../assets/GalleryAssets/concertVideo.mp4';
+import navdeep from '../assets/GalleryAssets/navdeep (2).JPG';
+import speechh from '../assets/GalleryAssets/speech.JPG';
 
 
 
