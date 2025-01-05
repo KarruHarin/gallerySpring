@@ -56,20 +56,12 @@ const Gallery = () => {
 
   return (
     <div 
-      className="min-h-screen bg-cover bg-pink-200 bg-center bg-fixed font-henny"
+      className="min-h-screen bg-cover bg-pink-200 bg-center bg-fixed font-henny bg-contain"
       style={{ backgroundImage: `url(${spring})`}}
     >
       {/* Heading */}
-      <div className="relative flex items-center justify-center py-10">
-      
-      <h1 className="text-5xl font-extrabold text-pink-500 drop-shadow-lg tracking-wide px-32 font-qwigley">
-        Gallery'24
-      </h1>
-     
-    </div>
-
       {/* Grid */}
-      <div className="grid grid-cols-4 gap-1 p-6 auto-rows-[150px] max-w-[2000px] mx-auto">
+      <div className="grid grid-cols-4 gap-2 p-6 auto-rows-[150px] max-w-[2000px] mx-3 pt-40 md:mx-2 sm:mx-auto">
         {items.map((item) => (
           <div
             key={item.id}
@@ -87,7 +79,7 @@ const Gallery = () => {
 
             {/* Title and Icon */}
             <div className="absolute bottom-4 left-4 text-white">
-              <h3 className="text-lg font-bold group-hover:text-pink-400 transition-colors duration-300 md:text-xl lg:text-2xl">
+              <h3 className="text-lg font-bold group-hover:text-pink-400 transition-colors duration-300 md:text-xl lg:text-2xl truncate">
                 {item.title}
               </h3>
             </div>
